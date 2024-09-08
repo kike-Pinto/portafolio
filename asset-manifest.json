@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.510b6b97.css",
+    "main.js": "/portafolio/static/js/main.e7a8a085.js",
+    "static/media/CV_Alvaro_Rivas_Portafolio.pdf": "/portafolio/static/media/CV_Alvaro_Rivas_Portafolio.27ce852974b7fc6a9888.pdf",
+    "static/media/codigo1.jpg": "/portafolio/static/media/codigo1.32bdf817e5ab0e3ef86d.jpg",
+    "static/media/profile13.jpg": "/portafolio/static/media/profile13.64c103d07db52afaaaae.jpg",
+    "static/media/testimonial3.png": "/portafolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/work2.jpg": "/portafolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/testimonial2.png": "/portafolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/work4.jpg": "/portafolio/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/portafolio/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/portafolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/portafolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/testimonial1.png": "/portafolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/portafolio/index.html",
+    "main.510b6b97.css.map": "/portafolio/static/css/main.510b6b97.css.map",
+    "main.e7a8a085.js.map": "/portafolio/static/js/main.e7a8a085.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.510b6b97.css",
+    "static/js/main.e7a8a085.js"
+  ]
+}
