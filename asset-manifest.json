@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.510b6b97.css",
-    "main.js": "/portafolio/static/js/main.e7a8a085.js",
+    "main.js": "/portafolio/static/js/main.f3d8efaf.js",
     "static/media/CV_Alvaro_Rivas_Portafolio.pdf": "/portafolio/static/media/CV_Alvaro_Rivas_Portafolio.27ce852974b7fc6a9888.pdf",
     "static/media/codigo1.jpg": "/portafolio/static/media/codigo1.32bdf817e5ab0e3ef86d.jpg",
     "static/media/profile13.jpg": "/portafolio/static/media/profile13.64c103d07db52afaaaae.jpg",
@@ -15,10 +15,10 @@
     "static/media/testimonial1.png": "/portafolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/portafolio/index.html",
     "main.510b6b97.css.map": "/portafolio/static/css/main.510b6b97.css.map",
-    "main.e7a8a085.js.map": "/portafolio/static/js/main.e7a8a085.js.map"
+    "main.f3d8efaf.js.map": "/portafolio/static/js/main.f3d8efaf.js.map"
   },
   "entrypoints": [
     "static/css/main.510b6b97.css",
-    "static/js/main.e7a8a085.js"
+    "static/js/main.f3d8efaf.js"
   ]
 }
