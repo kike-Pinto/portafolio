@@ -1,0 +1,114 @@
+{
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Contact Me",
+    "talk_to_me": "Talk to me",
+    "email": "Email",
+    "write_me": "Write me",
+    "whatsapp": "Whatsapp",
+    "messenger": "Messenger",
+    "write_me_your_project": "Write me your project",
+    "name": "Name",
+    "name_placeholder": "Insert your name",
+    "email_placeholder": "Insert your email",
+    "project": "Project",
+    "project_placeholder": "Write your project",
+    "send_message": "Send Message"
+  },
+
+  "footer": {
+    "about": "About",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "right": "ejecutar.programacion. All rights reserved."
+  },
+
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+
+  "about": {
+    "title": "About me",
+    "subtitle": "My introduction",
+    "download": "Download CV",
+    "description": "Backend - Frontend developer, create web pages with UI / UX user interface. Software Engineer with UML & Databases. Many clients & employers are happy with the projects carried out."
+  },
+
+  "information": {
+    "title_experience": "Experience",
+    "subtitle_experience": "8 Years Working",
+    "title_projects": "Completed",
+    "subtitle_projects": "22 + Projects",
+    "title_support": "Support",
+    "subtitle_support": "Online 24/7"
+  },
+
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technical Level"
+  },
+
+  "frontend": {
+    "title": "Frontend Developer",
+    "html": "Advance",
+    "css": "Intermediate",
+    "javascript": "Intermediate",
+    "bootstrap": "Intermediate",
+    "typescript": "Intermediate",
+    "react": "Intermediate"
+  },
+
+  "backend": {
+    "title": "Backend Developer",
+    "java": "Intermediate",
+    "node": "Basic",
+    "python": "Intermediate",
+    "mysql": "Intermediate",
+    "mongodb": "Intermediate",
+    "git": "Intermediate"
+  },
+
+  "services": {
+    "title": "Services",
+    "subtitle": "What I offer",
+    "product": "Products",
+    "designer": "Designer",
+    "view_more": "View More",
+    "visual": "Visual",
+    "modal_title1": "Product Designer",
+    "modal_description1": "Service with more than 3 years of experience. Providing quality work to clients and companies.",
+    "modal_info1": "Developing the user interface",
+    "modal_info12": "Web page development",
+    "modal_info13": "I create UX element interactions",
+    "modal_info14": "I position your company brand",
+    "modal_info15": "Design and mockups of products for companies.",
+
+    "modal_title2": "UI/UX Designer",
+    "modal_description2": "Service with more than 3 years of experience. Providing quality work to clients and companies.",
+    "modal_info2": "Developing the user interface",
+    "modal_info22": "Web page development",
+    "modal_info23": "I create UX element interactions",
+    "modal_info24": "I position your company brand",
+    "modal_info25": "Design and mockups of products for companies.",
+
+    "modal_title3": "Visual Designer",
+    "modal_description3": "Service with more than 3 years of experience. Providing quality work to clients and companies.",
+    "modal_info3": "Developing the user interface",
+    "modal_info32": "Web page development",
+    "modal_info33": "I create UX element interactions",
+    "modal_info34": "I position your company brand",
+    "modal_info35": "Design and mockups of products for companies."
+  },
+
+  "data": {
+    "subtitle": "Developer Programmer",
+    "description": "Web & Software Developer based in Chile, vocational journey & what I engage professionally.",
+    "hello": "Say Hello",
+    "scroll_down": "Scroll Down"
+  }
+}

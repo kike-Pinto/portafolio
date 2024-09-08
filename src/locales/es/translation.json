@@ -1,0 +1,114 @@
+{
+  "contact": {
+    "title": "Ponte en contacto",
+    "subtitle": "Contáctame",
+    "talk_to_me": "Háblame",
+    "email": "Correo Electrónico",
+    "write_me": "Escríbeme",
+    "whatsapp": "Whatsapp",
+    "messenger": "Messenger",
+    "write_me_your_project": "Escríbeme tu proyecto",
+    "name": "Nombre",
+    "name_placeholder": "Introduce tu nombre",
+    "email_placeholder": "Introduce tu correo electrónico",
+    "project": "Proyecto",
+    "project_placeholder": "Escribe tu proyecto",
+    "send_message": "Enviar Mensaje"
+  },
+
+  "footer": {
+    "about": "Acerca",
+    "projects": "Projectos",
+    "testimonials": "Testimonios",
+    "right": "ejecutar.programacion. Todos los derechos reservados."
+  },
+
+  "header": {
+    "home": "Principal",
+    "about": "Acerca",
+    "skills": "Habilidades",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+
+  "about": {
+    "title": "Acerca de mi",
+    "subtitle": "Mi introduccion",
+    "download": "Descargar CV",
+    "description": "Desarrollador Full-Stack, creo páginas web con interfaz de usuario UI / UX. Ingeniero de Software con conocimiento UML y Bases de Datos. Muchos clientes y empleadores están contentos con mis proyectos realizados."
+  },
+
+  "information": {
+    "title_experience": "Experiencia",
+    "subtitle_experience": "8 años trabajando",
+    "title_projects": "Completados",
+    "subtitle_projects": "22 + Projectos",
+    "title_support": "Supporte",
+    "subtitle_support": "En Linea 24/7"
+  },
+
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Nivel Tecnico"
+  },
+
+  "frontend": {
+    "title": "Desarrollador Frontend",
+    "html": "Avanzado",
+    "css": "Intermedio",
+    "javascript": "Intermedio",
+    "bootstrap": "Intermedio",
+    "typescript": "Intermedio",
+    "react": "Intermedio"
+  },
+
+  "backend": {
+    "title": "Desarrollador Backend",
+    "java": "Intermedio",
+    "node": "Basico",
+    "python": "Intermedio",
+    "mysql": "Intermedio",
+    "mongodb": "Intermedio",
+    "git": "Intermedio"
+  },
+
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Lo que ofrezco",
+    "product": "Productos",
+    "designer": "Diseñador",
+    "view_more": "Ver Mas",
+    "visual": "Visual",
+    "modal_title1": "Diseñador de Productos",
+    "modal_description1": "Servicio con mas de 3 años de experiencia. Proporcionar un trabajo de calidad a clientes y empresas.",
+    "modal_info1": "Desarrollo de la interfaz de usuario",
+    "modal_info12": "Desarrollo de Paginas web",
+    "modal_info13": "Creo interacciones de elementos UX",
+    "modal_info14": "Posiciono la marca de tu empresa",
+    "modal_info15": "Diseño y maquetas de productos para empresas.",
+
+    "modal_title2": "UI/UX Diseñador",
+    "modal_description2": "Servicio con mas de 3 años de experiencia. Proporcionar un trabajo de calidad a clientes y empresas.",
+    "modal_info2": "Desarrollo de la interfaz de usuario",
+    "modal_info22": "Desarrollo de Paginas web",
+    "modal_info23": "Creo interacciones de elementos UX",
+    "modal_info24": "Posiciono la marca de tu empresa",
+    "modal_info25": "Diseño y maquetas de productos para empresas.",
+
+    "modal_title3": "Diseñador Visual",
+    "modal_description3": "Servicio con mas de 3 años de experiencia. Proporcionar un trabajo de calidad a clientes y empresas.",
+    "modal_info3": "Desarrollo de la interfaz de usuario",
+    "modal_info32": "Desarrollo de Paginas web",
+    "modal_info33": "Creo interacciones de elementos UX",
+    "modal_info34": "Posiciono la marca de tu empresa",
+    "modal_info35": "Diseño y maquetas de productos para empresas."
+  },
+
+  "data": {
+    "subtitle": "Desarrollador Web & Software",
+    "description": "Desarrollador Web y de Software con sede en Chile, trayectoria vocacional y lo que me dedico profesionalmente",
+    "hello": "Dame un Saludo",
+    "scroll_down": "Desplazarse hacia abajo"
+  }
+}

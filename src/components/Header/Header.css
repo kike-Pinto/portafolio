@@ -1,0 +1,422 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  /* background-color: var(--body-color); */
+  background-color: var(--header-bg-day);
+  transition: background-color 0.3s ease;
+}
+
+.nav {
+  height: calc(var(--header-height) + 1.5rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.nav__logo,
+.nav__toggle {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.nav__logo-img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+  border: 2px solid #000;
+  opacity: 0.9;
+  transform: rotate(-2deg);
+  filter: grayscale(50%) sepia(10%) blur(0.5px) brightness(0.9);
+}
+
+.nav__logo-img:hover {
+  transform: scale(1, 1);
+  transition: transform 0.3s case;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.nav__link {
+  font-family: 'Consolas';
+  display: flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+}
+
+.header__language-toggle {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  color: var(--text-color);
+}
+
+.header__language-toggle:hover {
+  text-decoration: underline;
+}
+
+.contact-in {
+  display: none;
+}
+
+.contact-out {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.525rem 3.1rem;
+  border: 1px solid #f66969;
+  border-radius: 9999px;
+  cursor: pointer;
+  /* background-color: #e55757; */
+  background-color: #fd479f;
+  color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.contact-out::after {
+  content: '';
+  position: absolute;
+  z-index: 0; /* Mantener el pseudo-elemento detrás del contenido principal */
+  width: 150%;
+  height: 150%;
+  /* background: #4741d7; */
+  background: white;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.9s ease;
+}
+
+.contact-out:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.contact-out::before {
+  content: 'Contact Me';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  /* color: white; */
+  color: #fd479f;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  opacity: 0; /* Ocultar el texto inicialmente */
+  z-index: 1;
+}
+
+.contact-out:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1; /* Mostrar el texto durante el hover */
+}
+
+.small-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.nav__icon,
+.nav__close,
+.nav__toggle {
+  display: none;
+}
+
+/* Active link */
+.active-link,
+.nav__link:hover {
+  /* color: var(--title-color-dark); */
+  color: rgb(251, 89, 77) !important;
+}
+
+/* Change background header */
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* BREAKPOINTS */
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .header {
+    top: initial;
+    bottom: 0;
+  }
+
+  .nav {
+    height: var(--header-height);
+  }
+
+  .nav__logo-img {
+    margin-bottom: 20px;
+  }
+
+  .nav__menu {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    padding: 2rem 1.5rem 4rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5rem 1.5rem 0 0;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-out {
+    display: none;
+  }
+
+  /* .contact-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.525rem 3.1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    border: 1px solid #f66969;
+    border-radius: 9999px;
+    cursor: pointer;
+    background-color: #e55757;
+    color: white;
+  } */
+
+  .contact-in {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.525rem 4.1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    border: 1px solid #f66969;
+    border-radius: 9999px;
+    cursor: pointer;
+    background-color: #fd479f;
+    color: white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .contact-in::after {
+    content: '';
+    position: absolute;
+    z-index: 0; /* Mantener el pseudo-elemento detrás del contenido principal */
+    width: 150%;
+    height: 150%;
+    background: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.9s ease;
+  }
+
+  .contact-in:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .contact-in::before {
+    content: 'Contact Me';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fd479f;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0; /* Ocultar el texto inicialmente */
+    z-index: 1;
+  }
+
+  .contact-in:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1; /* Mostrar el texto durante el hover */
+  }
+
+  .small-icon {
+    margin-left: 1rem;
+  }
+
+  .contact-in a {
+    color: white;
+  }
+
+  /* Show menu */
+  .show-menu {
+    bottom: 0;
+  }
+
+  ul {
+    border: none;
+  }
+
+  .nav__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+  }
+
+  .nav__icon {
+    font-size: 1.2rem;
+  }
+
+  .nav__close {
+    position: absolute;
+    right: 1.3rem;
+    bottom: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--title-color);
+  }
+
+  .nav__close:hover {
+    color: var(--title-color-dark);
+  }
+
+  .nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  .nav__icon,
+  .nav__close,
+  .nav__toggle {
+    display: block;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .nav__menu {
+    padding: 2rem 0.1rem 4rem;
+  }
+
+  .nav__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem; /* Ajusta el espacio entre filas */
+    justify-items: center;
+  }
+
+  .nav__item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav__item:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .nav__item:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .nav__item:nth-child(3) {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .nav__item:nth-child(4) {
+    grid-column: 1 / span 2; /* Ocupa dos columnas */
+    grid-row: 2;
+  }
+
+  .nav__item:nth-child(5) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .nav__close {
+    display: block;
+  }
+
+  .contact-in {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.525rem 4.1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    border: 1px solid #f66969;
+    border-radius: 9999px;
+    cursor: pointer;
+    background-color: #fd479f;
+    color: white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .contact-in::after {
+    content: '';
+    position: absolute;
+    z-index: 0; /* Mantener el pseudo-elemento detrás del contenido principal */
+    width: 150%;
+    height: 150%;
+    background: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.9s ease;
+  }
+
+  .contact-in:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .contact-in::before {
+    content: 'Contact Me';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fd479f;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0; /* Ocultar el texto inicialmente */
+    z-index: 1;
+  }
+
+  .contact-in:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1; /* Mostrar el texto durante el hover */
+  }
+}
