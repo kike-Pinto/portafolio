@@ -110,5 +110,55 @@
     "description": "Web & Software Developer based in Chile, vocational journey & what I engage professionally.",
     "hello": "Say Hello",
     "scroll_down": "Scroll Down"
+  },
+
+  "testimonials": [
+    {
+      "title": "Jhon Doe",
+      "description": "A really good job, all aspects of the project were followed step by step and with good results."
+    },
+    {
+      "title": "Harry Clinton",
+      "description": "A really good job, all aspects of the project were followed step by step and with good results2."
+    },
+    {
+      "title": "Sara Cill",
+      "description": "A really good job, all aspects of the project were followed step by step and with good results3."
+    }
+  ],
+  "testimonial_title": "Clients say",
+  "testimonial_subtitle": "Testimonials",
+
+  "portafolio": {
+    "title": "Portfolio",
+    "subtitle": "Most recent works"
+  },
+
+  "qualifications": {
+    "title": "Qualifications",
+    "subtitle": "Personal Journey",
+    "education": "Education",
+    "experience": "Experience",
+    "qualification_title1": "Web Design",
+    "qualification_place1": "Chile - University",
+    "qualification_year1": "2021 - Present",
+    "qualification_title2": "Software Engineer",
+    "qualification_place2": "Chile - University",
+    "qualification_year2": "2021 - Present",
+    "qualification_title3": "Web Development",
+    "qualification_place3": "Chile - University",
+    "qualification_year3": "2003 - 2010",
+    "qualification_title4": "Databases",
+    "qualification_place4": "Chile - University",
+    "qualification_year4": "2008 - 2011",
+    "qualification_title5": "Software Development",
+    "qualification_place5": "Iquique, Chile - University",
+    "qualification_year5": "2003 - 2010",
+    "qualification_title6": "Business Inteligent",
+    "qualification_place6": "Iquique, Chile - University",
+    "qualification_year6": "2003 - 2010",
+    "qualification_title7": "Web Designer",
+    "qualification_place7": "Chile - University",
+    "qualification_year7": "2003 - 2010"
   }
 }

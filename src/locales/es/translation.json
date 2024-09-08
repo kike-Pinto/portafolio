@@ -110,5 +110,55 @@
     "description": "Desarrollador Web y de Software con sede en Chile, trayectoria vocacional y lo que me dedico profesionalmente",
     "hello": "Dame un Saludo",
     "scroll_down": "Desplazarse hacia abajo"
+  },
+
+  "testimonials": [
+    {
+      "title": "Jhon Doe",
+      "description": "Un trabajo realmente bueno, todos los aspectos del proyecto se siguieron paso a paso y con buenos resultados."
+    },
+    {
+      "title": "Harry Clinton",
+      "description": "Un trabajo realmente bueno, todos los aspectos del proyecto se siguieron paso a paso y con buenos resultados."
+    },
+    {
+      "title": "Sara Cill",
+      "description": "Un trabajo realmente bueno, todos los aspectos del proyecto se siguieron paso a paso y con buenos resultados."
+    }
+  ],
+  "testimonial_title": "Opiniones de clientes",
+  "testimonial_subtitle": "Testimonios",
+
+  "portafolio": {
+    "title": "Portafolio",
+    "subtitle": "Proyectos recientes"
+  },
+
+  "qualifications": {
+    "title": "Cualificaciones",
+    "subtitle": "Desarrollo Personal",
+    "education": "Educacion",
+    "experience": "Experiencia",
+    "qualification_title1": "Diseño Web",
+    "qualification_place1": "Chile - Universidad",
+    "qualification_year1": "2021 - Presente",
+    "qualification_title2": "Ingeniera de Software",
+    "qualification_place2": "Chile - Universidad",
+    "qualification_year2": "2021 - Presente",
+    "qualification_title3": "Disarrollo Web",
+    "qualification_place3": "Chile - Universidad",
+    "qualification_year3": "2003 - 2010",
+    "qualification_title4": "Base de Datos",
+    "qualification_place4": "Chile - Universidad",
+    "qualification_year4": "2008 - 2011",
+    "qualification_title5": "Desarrollador de Software",
+    "qualification_place5": "Iquique, Chile - Universidad",
+    "qualification_year5": "2003 - 2010",
+    "qualification_title6": "Inteligencia de Negocio",
+    "qualification_place6": "Iquique, Chile - Universidad",
+    "qualification_year6": "2003 - 2010",
+    "qualification_title7": "Diseñador Web",
+    "qualification_place7": "Chile - Universidad",
+    "qualification_year7": "2003 - 2010"
   }
 }
